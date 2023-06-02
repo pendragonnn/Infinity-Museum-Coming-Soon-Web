@@ -21,6 +21,11 @@ body {
   color: white;
 }
 
+.navbar.scrolled {
+  background-color: #c2ded1;
+  transition: background 500ms;
+}
+
 #navbar .nav-link:hover {
   color: #354259;
 }
@@ -46,11 +51,6 @@ body {
   font-weight: 100;
   font-size: 1.125rem;
   line-height: 2;
-}
-
-.content {
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 @media (max-width: 1200px) {
