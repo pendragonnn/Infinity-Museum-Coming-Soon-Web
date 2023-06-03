@@ -22,8 +22,8 @@ body {
 }
 
 .navbar.scrolled {
-  background-color: rgba(0,0,0,0.1);
-  transition: background 500ms;
+  background-color: rgba(0,0,0,0.4);
+  transition: background 300ms;
 }
 
 #navbar .nav-link:hover {
@@ -54,9 +54,29 @@ body {
   line-height: 2;
 }
 
-@media (max-width: 1200px) {
+h6 {
+  color: #354259;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 992px) {
   #title-head h1 {
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 1.5rem;
+  }
+
+  #navbar .navbar-brand {
+    color: #354259;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .row .lead {
+    font-size: 1rem;
+  }
+
+  .row h2 {
+    font-size: 1.5rem;
   }
 }
