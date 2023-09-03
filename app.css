@@ -29,7 +29,7 @@ body {
 }
 
 .navbar.scrolled {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   transition: background 300ms;
 }
 
@@ -43,14 +43,14 @@ body {
   font-weight: bold;
 }
 
-#title-head > h1 {
+#title-head>h1 {
   font-weight: 800;
   font-size: 3rem;
   line-height: 4rem;
   color: var(--navy-blue-3);
 }
 
-#title-head > a {
+#title-head>a {
   text-decoration: none;
   color: var(--navy-blue-2);
   background-color: #DDE6ED;
@@ -59,17 +59,17 @@ body {
   transition: .2s;
 }
 
-#title-head > a:hover {
-  background-color: rgba(0,0,0,0.4);
+#title-head>a:hover {
+  background-color: rgba(0, 0, 0, 0.4);
   color: var(--navy-blue-4);
 }
 
 #container-title {
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-#container-title > h2 {
-  border-bottom: 2px solid rgba(0,0,0,0.1);
+#container-title>h2 {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .blurb h2 {
